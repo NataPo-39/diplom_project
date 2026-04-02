@@ -1,0 +1,14 @@
+# HTTP запросы к API
+requests>=2.31.0
+pandas>=2.0.0
+# Работа с .env файлом
+python-dotenv>=1.0.0
+# Веб-сервер
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Telegram бот (для Части 3)
+python-telegram-bot>=20.0
+
+# Валидация данных
+pydantic>=2.5.0

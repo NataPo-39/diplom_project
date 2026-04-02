@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CULT CONSTRUCTIONS - ИИ ассистент</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>CULT CONSTRUCTIONS</h1>
+            <p class="subtitle">Премиальные алюминиевые ограждения</p>
+        </header>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message assistant">
+                    <div class="message-content">
+                        Здравствуйте! Я ИИ-ассистент компании CULT CONSTRUCTIONS.
+                        Задайте мне вопрос о наших алюминиевых ограждениях, и я с радостью помогу!
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <textarea
+                    id="userInput"
+                    class="chat-input"
+                    placeholder="Введите ваш вопрос..."
+                    rows="2"
+                ></textarea>
+                <button id="sendButton" class="send-button">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="info-panel" id="infoPanel" style="display: none;">
+            <h3>📋 Собранные данные</h3>
+            <div id="collectedData"></div>
+        </div>
+    </div>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>

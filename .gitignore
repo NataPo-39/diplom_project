@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Secrets
+.env
+
+# Data (audio, logs, results)
+data/
+logs/
+*.log
+*.wav
+*.mp3
+*.csv
+
+# IDE
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+Thumbs.db
+.DS_Store
